@@ -1,4 +1,4 @@
-# CLI Orchestrator
+# SDK Orchestrator
 
 A local web app that runs three AI agents (Claude, GPT, Groq) as a team in a shared workspace under a coordinator agent. The user sends one prompt; the coordinator breaks it into sub-tasks and assigns each to the best agent. Every agent reads the same conversation log and can read/write files and run shell commands in the shared workspace.
 
